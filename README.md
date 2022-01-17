@@ -32,7 +32,7 @@ aprendendo docker
 ### docker volume inspect volumeteste 
 ### docker volume rm volumeteste
 ### docker volume prune
-### docker run -d -p 801:80 --name boi99 --rm -v C:\Users\samu\Desktop\php_teste:/var/www/html:ro phpteste:teste3 (SOMENTE LEITURA)
+### docker run -d -p 801:80 --name app.config['MYSQL_HOST'] = 'mysql_api_container' --rm -v C:\Users\samu\Desktop\php_teste:/var/www/html:ro phpteste:teste3 (SOMENTE LEITURA)
 ###  os tipos de reder do docker são Bridge(Default),Host(Comunicação host-docker), Macvlan(utiliza o mac adress), None(remove a rede) e Plugins
 ### docker network ls
 ### docker network create redeteste
@@ -42,4 +42,13 @@ aprendendo docker
 ### docker network create netdachina
 ### docker run -d -p 5000:5000 --name flash_api_conteiner --rm --network netdachina flask
 ### host.docker.internal
-### app.config['MYSQL_HOST'] = 'mysql_api_container'
+### app.config['MYSQL_HOST'] = 'mysql_api_container
+
+
+### docker network connect ctestepy
+### docker inspect mysqlapiconteiner
+### docker network disconnect 
+
+
+### docker network connect teste0 mysqlapiconteiner
+### docker network disconnect teste0 mysqlapiconteiner
