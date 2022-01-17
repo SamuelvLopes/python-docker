@@ -52,3 +52,5 @@ aprendendo docker
 
 ### docker network connect teste0 mysqlapiconteiner
 ### docker network disconnect teste0 mysqlapiconteiner
+
+### docker network inspect netdachina
